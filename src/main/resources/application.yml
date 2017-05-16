@@ -1,0 +1,10 @@
+app:
+  host: "1.2.3.4"
+  port: 1
+
+spring:
+    application:
+        name: spring-boot-demo
+server:
+    port: 8080
+management.security.enabled: false
