@@ -12,7 +12,7 @@ As an example there is an AppProperty class supplied as app configuration proper
 $> APP_HOST='2.3.4.5' APP_PORT=80 \
 java -jar build/libs/spring-boot-demo-0.0.1-SNAPSHOT.jar com.example.Demo.DemoApplication
 
-$> curl -I localhost:8080/application/env
+$> curl -I localhost:8080/application/health
 {
   "status": "UP",
   "hello": {
